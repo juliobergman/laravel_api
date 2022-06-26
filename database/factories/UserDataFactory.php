@@ -16,7 +16,7 @@ class UserDataFactory extends Factory
         return [
             'avatar' => '/storage/ui/avatar/default/user.jpg',
             'phone' => $this->faker->phoneNumber(),
-            'country' => $this->faker->countryCode(),
+            'country' => strtolower($this->faker->countryCode()),
             'city' => $this->faker->city(),
             'address' => $this->faker->streetAddress(),
             'gender' => 'male',

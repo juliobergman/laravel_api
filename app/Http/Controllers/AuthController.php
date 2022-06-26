@@ -21,11 +21,11 @@ class AuthController extends Controller
         // UserData
         'user_data.site',
         'user_data.phone',
-        'user_data.country',
         'user_data.city',
         'user_data.address',
         'user_data.gender',
         'user_data.avatar',
+        'user_data.country',
         // Country
         'countries.name as country_name',
         'countries.region as country_region',
